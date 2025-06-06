@@ -1,0 +1,1 @@
+const mario = document . querySelector
