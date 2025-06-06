@@ -27,7 +27,11 @@
     bottom: 0;
 }
 
-.nuvem {
+.jump{
+  animation: jump  
+}
+
+.nuvem {  
     position: absolute;
     width: 550px;
     animation: clouds-animation 20% infinite;
@@ -43,4 +47,8 @@
   to {right: 100%;}
 }
 
-@keyframes jump
+@keyframes jump{
+  0% {bottom: 0;}
+  40% { bottom: 180px;}
+  60% bottom  
+}
