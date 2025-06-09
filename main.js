@@ -9,3 +9,9 @@ const jump = () => {
 )
 .500);
 }
+
+const loop = setInterval (()) => (
+    const pipePosition = pipe.offsetLeft;
+    const marioPosition = +window.getComputedStyle(mario.botttom.replace("px"))
+)
+document.addEventListener("keydown", jump);
