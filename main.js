@@ -15,3 +15,12 @@ const loop = setInterval (()) => (
     const marioPosition = +window.getComputedStyle(mario.botttom.replace("px"))
 )
 document.addEventListener("keydown", jump);
+
+
+
+
+
+
+mario.src=".img/game-over.png";
+mario.computedStyleMap.width = "75px";
+mario.style.marginleft
