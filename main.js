@@ -15,8 +15,11 @@ const loop = setInterval (()) => (
     const marioPosition = +window.getComputedStyle(mario.botttom.replace("px"))
 )
 document.addEventListener("keydown", jump);
+pipe.style.animation="nome";
+pipe.style.left = '${pipeposition}px';
 
-
+mario.style.animation = "nome";
+mario.style.left = '${marioPosition}px';
 
 
 
